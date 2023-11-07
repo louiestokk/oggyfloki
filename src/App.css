@@ -36,3 +36,31 @@ width: 100%;
     width: 100%;
     color: white;
 }
+.logo{
+    width: 35px;
+    height:35px;
+    cursor: pointer;
+}
+.nav-header{
+    position: absolute;
+    width: 100%;
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+.inhouse-logo{
+    cursor: pointer;
+    width: 35px;
+    height: 35px;
+    background-color: var(--yellow);
+    color: white;
+    border-radius: 50%;
+    font-size: 0.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
