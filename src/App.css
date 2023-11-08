@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&family=Press+Start+2P&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -18,11 +18,6 @@ width: 100%;
 
 };
 
-.nav-comtainer{
-    background: red;
-    height: 3rem;
-    width: 100%;
-}
 .hero-container{
   position: relative;
 }
@@ -30,13 +25,32 @@ width: 100%;
     object-fit: cover;
     width: 100%;
     height: 500px;
-
+    background-color: black;
 }
+
 .about-container{
-    height: 400px;
+    height: 100%;
     width: 100%;
     color: white;
+    text-align: center;
+    margin-top: 2rem;
 }
+.about-container h1,h2{
+    font-family: 'DotGothic16', cursive;
+   color: var(--yellow);
+
+}
+.about-container img{
+    width: 290px;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+.about-container p{
+    max-width: 80%;
+    margin: 0 auto;
+}
+
 .logo{
     width: 35px;
     height:35px;
@@ -65,33 +79,20 @@ width: 100%;
     justify-content: center;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
-.adventure-text{
-    position: absolute;
-    z-index: 1000;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  height: 90px;
-  color: white;
-  width: 100%;
-  text-align: center;
-  margin: auto;
-  font-size: 40px;
-  line-height: 40px;
-  letter-spacing: 5px;
-  text-shadow: -2px 0 0 #fdff2a,
-    -4px 0 0 #df4a42,
-    2px 0 0 #91fcfe,
-    4px 0 0 #4405fc;
-  animation: blink 1s steps(4, start) infinite;
-    font-family: 'Press Start 2P', cursive;
-    background: repeating-linear-gradient(
-        to bottom,
-        #0f0a1e,
-        #0f0a1e 2px,
-        lighten(#0f0a1e, 3%) 2px,
-        lighten(#0f0a1e, 3%) 4px
-      )
-      
+.divider{
+    background:linear-gradient(rgba(0.6,0.6,0.6,0.6),rgba(0.6,0.6,0.6,0.6)), url('./utils//divider.png') no-repeat;
+    width: 100%;
+    height: 3rem;
+    background-position: center;
+    background-size: cover;
+    margin: 3rem 0;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+.about-stats div{
+border-top: 2px solid #FFC900;
+border-left: 2px solid #FFC900;
+border-right: 2px solid #FFC900;
+margin: 3rem auto;
+border-radius: 10px;
+max-width: 80%;
 }
