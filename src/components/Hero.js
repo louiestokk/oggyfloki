@@ -13,6 +13,7 @@ const Hero = () => {
       
       </div>
       <img src={heroimg} alt='oggyfloki adventure' className='hero-mainImg'/>
+
     </div>
   )
 }
