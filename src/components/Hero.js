@@ -1,6 +1,6 @@
 import React from 'react'
 import heroimg from '../utils/hero1.webp'
-import logo from '../utils/logo.png'
+import logo from '../utils/ourlogo.png'
 import MenuIcon from '@mui/icons-material/Menu';
 const Hero = () => {
   return (

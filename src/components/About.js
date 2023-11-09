@@ -1,6 +1,6 @@
 import React from 'react'
 import img from '../utils/mech2.webp'
-import logo from '../utils/logo.png'
+import logo from '../utils/ourlogo.png'
 const About = () => {
   return (
     <div className='about-container'>
