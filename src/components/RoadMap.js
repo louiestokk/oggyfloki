@@ -2,7 +2,7 @@ import React from 'react'
 
 const RoadMap = () => {
   return (
-    <div>RoadMap</div>
+    <div className='roadmap-container'>RoadMap</div>
   )
 }
 

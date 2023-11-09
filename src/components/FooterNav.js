@@ -1,8 +1,8 @@
 import React from 'react'
-
+import bg from '../utils/footer.png'
 const FooterNav = () => {
   return (
-    <div>FooterNav</div>
+    <div className='footer'>FooterNav</div>
   )
 }
 

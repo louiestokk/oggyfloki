@@ -98,4 +98,72 @@ border-right: 2px solid #FFC900;
 margin: 3rem auto;
 border-radius: 10px;
 max-width: 80%;
+padding: 0.5rem;
+}
+.about-stats p{
+    margin: 0.3rem auto;
+
+}
+.about-stats span{
+    color: var(--yellow);
+}
+.about-container button{
+    background-color: #FFC900;
+    border: none;
+    border-radius: 5px;
+    width: 8rem;
+    height: 2.4rem;
+}
+.about-stats p, span{
+    font-family: 'DotGothic16', cursive;
+    letter-spacing: 1px;
+}
+.about-stats p{
+    font-size: 1.2rem;
+}
+.community-container{
+    width: 100%;
+    height: 400px;
+}
+.footer{
+    background:linear-gradient(rgba(0.4,0.4,0.4,0.4),rgba(0.4,0.4,0.4,0.4)),  url('./utils//footer.png') no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+}
+
+.gallery{
+    background: linear-gradient(rgba(0.4,0.4,0.4,0.4),rgba(0.4,0.4,0.4,0.4)) ,url('./utils/wall10.webp') no-repeat;
+    width: 100%;
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+}
+.tokenomics-container{
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    margin: 3rem 0;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+
+.tokenomics-container img{
+  object-fit: contain;
+  width: 80%;
+    height: 70px;
+    margin-top: 1.5rem;
+    cursor: pointer;
+}
+.roadmap-container{
+    width: 100%;
+    height: 400px;
+    background: black;
+}
+.howto-container{
+  background: url('./utils/collection2.png') no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 400px;
 }

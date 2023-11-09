@@ -2,7 +2,7 @@ import React from 'react'
 
 const HowToBuy = () => {
   return (
-    <div>HowToBuy</div>
+    <div className='howto-container'>HowToBuy</div>
   )
 }
 

@@ -15,26 +15,27 @@ const About = () => {
      </div>
      <section className='about-stats'>
       <div>
-        <h2>5%</h2>
-        <p>Tax to Buy </p>
+        <h2 style={{fontSize:'1.8rem',letterSpacing:'2px'}}>5%</h2>
+        <p>Tax to <span>Buy</span> </p>
         <span>Allocated to Marketing</span>
       </div>
       <div>
-        <h2>8%</h2>
-        <p>Tax on Sell </p>
+        <h2 style={{fontSize:'1.8rem',letterSpacing:'2px'}}>8%</h2>
+        <p>Tax on <span>Sell</span></p>
         <span>5% Redistribution to every $OGF holder </span>
       </div>
       <div>
-        <h2>2%</h2>
-        <p>From Sell </p>
+        <h2 style={{fontSize:'1.8rem',letterSpacing:'2px'}}>2%</h2>
+        <p>From <span>Sell</span> </p>
         <span>Liquidity </span>
       </div>
       <div>
-        <h2>1%</h2>
-        <p>From Sell </p>
+        <h2 style={{fontSize:'1.8rem',letterSpacing:'2px'}}>1%</h2>
+        <p>From <span>Sell</span> </p>
         <span>Burn</span>
       </div>
      </section>
+     <button>Buy $OGF</button>
     </div>
   )
 }
