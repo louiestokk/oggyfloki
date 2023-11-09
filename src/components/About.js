@@ -35,7 +35,7 @@ const About = () => {
         <span>Burn</span>
       </div>
      </section>
-     <button>Buy $OGF</button>
+     <button>BUY $OGF</button>
     </div>
   )
 }
