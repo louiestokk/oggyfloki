@@ -2,7 +2,11 @@ import React from 'react'
 
 const HowToBuy = () => {
   return (
-    <div className='howto-container'>HowToBuy</div>
+    <div className="howto-container">
+  <div className='cloud-img'></div>
+    </div>
+
+   
   )
 }
 

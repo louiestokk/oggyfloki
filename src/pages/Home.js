@@ -16,7 +16,7 @@ const Home = () => {
         {/* <RoadMap /> */}
         <HowToBuy />
         <Community />
-        <Gallery />
+        {/* <Gallery /> */}
         <FooterNav />
     </div>
   )
