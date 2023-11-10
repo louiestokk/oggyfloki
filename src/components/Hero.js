@@ -4,18 +4,17 @@ import logo from '../utils/ourlogo.png'
 import MenuIcon from '@mui/icons-material/Menu';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import TelegramIcon from '@mui/icons-material/Telegram';
-import { navlinks } from '../links/navlinks';
+
 const Hero = () => {
   const [showNav, setShowNav] = useState(false)
   return (
     <div className='hero-container'>
       <div className='nav-header'>
+        <div style={{display:'flex',alignItems:'center'}}>
         <img className='logo' alt='oggyfloki logo' src={logo}/>
-       <div className={showNav ? "nav-menu show-nav" : "nav-menu"}>
-        {navlinks?.map((link,i)=>{
-          return <a href={link.path} key={i}>{link.title}</a>
-        })}
-       </div>
+        <h2 style={{marginLeft:'0.5rem',opacity:'1', zIndex:'1000'}} >OGGYFLOKI</h2>
+        </div>
+      
  <div className='inhouse-logo' onClick={() => setShowNav(!showNav)}>
 <MenuIcon />
  </div>

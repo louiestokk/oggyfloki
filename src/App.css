@@ -44,6 +44,7 @@ scrollbar-width: none;
     background-color: black;
 }
 
+
 .about-container{
     height: 100%;
     width: 100%;
@@ -74,6 +75,9 @@ scrollbar-width: none;
     height:35px;
     cursor: pointer;
 }
+
+
+
 .nav-header{
     position: absolute;
     width: 100%;
