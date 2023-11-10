@@ -1,15 +1,22 @@
-import React from 'react'
+import React,{useState} from 'react'
 import heroimg from '../utils/hero1.webp'
 import logo from '../utils/ourlogo.png'
 import MenuIcon from '@mui/icons-material/Menu';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import TelegramIcon from '@mui/icons-material/Telegram';
+import { navlinks } from '../links/navlinks';
 const Hero = () => {
+  const [showNav, setShowNav] = useState(false)
   return (
     <div className='hero-container'>
       <div className='nav-header'>
         <img className='logo' alt='oggyfloki logo' src={logo}/>
- <div className='inhouse-logo'>
+       <div className={showNav ? "nav-menu show-nav" : "nav-menu"}>
+        {navlinks?.map((link,i)=>{
+          return <a href={link.path} key={i}>{link.title}</a>
+        })}
+       </div>
+ <div className='inhouse-logo' onClick={() => setShowNav(!showNav)}>
 <MenuIcon />
  </div>
       
