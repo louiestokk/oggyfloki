@@ -17,11 +17,12 @@ export const navlinks = [
         title:'TOKENOMICS'
     },
     {
-        path:'/',
-        title:'ROADMAP'
+        path:'tokeninfo',
+        title:'TOKEN INFO'
     },
     {
         path:'/',
-        title:'PARTNERS'
-    }
+        title:'ROADMAP'
+    },
+ 
 ]

@@ -153,9 +153,6 @@ padding: 0.5rem;
     height: 400px;
 }
 .footer{
-    background:linear-gradient(rgba(0.4,0.4,0.4,0.4),rgba(0.4,0.4,0.4,0.4)),  url('./utils//footer.png') no-repeat;
-    background-position: center;
-    background-size: cover;
     width: 100%;
     height: 400px;
 }
@@ -172,7 +169,8 @@ padding: 0.5rem;
     text-align: center;
     width: 100%;
     height: 100%;
-    margin:10rem 0;
+    margin-top: 10rem;
+    margin-bottom: 7rem;
     box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
 }
 
@@ -191,11 +189,17 @@ padding: 0.5rem;
 }
 
 .howto-container{
-    position: relative;
-    background: url('./utils//wall10.webp') no-repeat  center center/cover;
-    height: 400px;
-    transform: scale(1.2);
+  height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+.howto-container h3{
+    color: var(--yellow);
+   border-bottom:1px solid #FFC900;
+   margin: 0.5rem 0;
+}
+
 /* .cloud-img{
     top: 10%;
     left: 20%;

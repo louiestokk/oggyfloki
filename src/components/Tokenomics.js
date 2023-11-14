@@ -13,8 +13,8 @@ const Tokenomics = () => {
         <img src={pinksales} alt='pinksale logo'/>
         <img src={expelee} alt='expelee.com logo'/>
         <img src={karan} alt='karan tehe wizard'/>
-     
       </div>
+      <div className='divider'></div>
     </div>
   )
 }
