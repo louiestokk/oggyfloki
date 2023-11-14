@@ -21,7 +21,7 @@ export const navlinks = [
         title:'TOKEN INFO'
     },
     {
-        path:'/',
+        path:'roadmap',
         title:'ROADMAP'
     },
  

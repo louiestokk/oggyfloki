@@ -15,10 +15,8 @@ const Home = () => {
         <OggyDescription />
         <About/>
         <Tokenomics />
-        {/* <RoadMap /> */}
-        <HowToBuy />
-        <Community />
-        {/* <Gallery /> */}
+        <HowToBuy />   
+            <RoadMap />
         <FooterNav />
     </div>
   )
