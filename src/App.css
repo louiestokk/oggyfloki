@@ -52,6 +52,7 @@ scrollbar-width: none;
     color: white;
     text-align: center;
     margin-top: 5rem;
+    margin-bottom: 5rem;
 }
 .about-container h1,h2{
     font-family: 'DotGothic16', cursive;
@@ -445,3 +446,44 @@ color: white;
     margin: 0.35rem 0;
     letter-spacing: 0.5px;
   }
+
+  .oggyprofits {
+    background-color: #121212; /* Dark background */
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0 4px 20px rgba(255, 201, 0, 0.5); /* Yellow-gold glow */
+    color: #FFC900; /* Theme yellow color for text */
+    padding: 40px; /* Padding around content */
+    max-width: 800px; /* Maximum width of the component */
+    margin: 40px auto; /* Centering in the middle of the screen */
+    text-align: center; /* Center text alignment */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transitions for hover */
+  }
+  
+  .oggyprofits:hover {
+    transform: translateY(-10px); /* Lift component on hover */
+    box-shadow: 0 8px 30px rgba(255, 201, 0, 0.6); /* Intensify glow on hover */
+  }
+  
+  .oggyprofits h2 {
+    margin-bottom: 20px; /* Space below the header */
+    font-size: 2em; /* Larger font size for the header */
+    color: var(--yellow); /* White color for contrast */
+    text-transform: uppercase; /* Uppercase text for styling */
+    letter-spacing: 2px; /* More spacing between letters */
+  }
+  
+  .oggyprofits p {
+    font-size: 1em; /* Appropriate font size for readability */
+    line-height: 1.6; /* Spacing between lines for readability */
+    margin-bottom: 30px; /* Space below the paragraph */
+    color: #E0E0E0; /* Light grey color for the paragraph */
+    font-family: 'DotGothic16', cursive;
+  }
+  
+  .oggyprofits img {
+    max-width: 100%; /* Ensure image is not bigger than its container */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Rounded corners for the image */
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.3); /* Subtle shadow for the image */
+  }
+  
