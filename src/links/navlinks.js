@@ -5,11 +5,15 @@ export const navlinks = [
         title:'HOME'
     },
     {
-        path:'/',
+        path:'oggydescription',
         title:'ABOUT'
     },
     {
-        path:'/',
+        path:'mechanics',
+        title:'MECHANICS'
+    },
+    {
+        path:'tokenomics',
         title:'TOKENOMICS'
     },
     {

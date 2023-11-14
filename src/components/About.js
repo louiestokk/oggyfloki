@@ -3,7 +3,7 @@ import img from '../utils/mech2.webp'
 import logo from '../utils/ourlogo.png'
 const About = () => {
   return (
-    <div className='about-container'>
+    <div className='about-container' id='mechanics'>
      <img src={img} alt='mechanics oggy floki'/>
      <p>The <span style={{color:'#FFC900', fontFamily:'DotGothic16',fontWeight:'bold'}}>$OGF</span> is a meme token engineered with an innovative economic design to enhance its <span style={{color:'#FFC900', fontFamily:'DotGothic16',letterSpacing:'1px',fontWeight:'bold'}} >community's </span>investment experience.</p>
      <p style={{marginTop:'1rem'}}>Every transaction activates a system that fosters a stream of passive income. For each token purchase, a calculated  <span style={{color:'#FFC900', fontFamily:'DotGothic16',letterSpacing:'1px',fontWeight:'bold'}} >5%</span> fee is contributed to the marketing wallet, and <span style={{color:'#FFC900', fontFamily:'DotGothic16',letterSpacing:'1px',fontWeight:'bold'}} >5%</span> fee from sales transactions is redistributed to the  <span style={{color:'#FFC900', fontFamily:'DotGothic16',fontWeight:'bold'}} >token</span> holders.</p>

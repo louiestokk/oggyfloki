@@ -14,7 +14,7 @@ const Hero = () => {
       <div className={showNav ? "nav-menu show-nav" : "nav-menu"}>
 <CancelPresentationIcon onClick={()=> setShowNav(!showNav)}  className='close-btn'/>
         {navlinks?.map((el,i)=>{
-          return <a key={i} className='nav-link-item' onClick={()=> setShowNav(!showNav)}>{el.title}</a>
+          return <a key={i} href={`#${el.path}`}  className='nav-link-item' onClick={()=> setShowNav(!showNav)}>{el.title}</a>
         })}
         <img src={logo} alt='logo' className='logo'
         style={{marginTop:'5rem'}}/>
