@@ -12,9 +12,9 @@ const Hero = () => {
     <div className='hero-container'>
 
       <div className={showNav ? "nav-menu show-nav" : "nav-menu"}>
-<CancelPresentationIcon onClick={()=> setShowNav(!showNav)} style={{cursor:'pointer',margin:'1rem 0'}}/>
+<CancelPresentationIcon onClick={()=> setShowNav(!showNav)}  className='close-btn'/>
         {navlinks?.map((el,i)=>{
-          return <a key={i} className='nav-link-item'>{el.title}</a>
+          return <a key={i} className='nav-link-item' onClick={()=> setShowNav(!showNav)}>{el.title}</a>
         })}
         <img src={logo} alt='logo' className='logo'
         style={{marginTop:'5rem'}}/>

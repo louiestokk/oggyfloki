@@ -258,7 +258,7 @@ color: white;
     align-items: center;
     background: black;
     color: white;
-    transition: all 0.3s linear;
+    transition: all 0.5s linear;
     transform: translateX(100%);
     z-index: 10000;
   }
@@ -267,7 +267,36 @@ color: white;
     font-size: 1.2rem;
     letter-spacing: 1px;
 }
-  .show-nav {
+
+.close-btn{
+    margin: 1rem 0;
+    cursor: pointer;
+}
+
+.close-btn:hover{
+    transform: rotate(45deg);
+}
+
+.nav-link-item:hover{
+    color: #721DB3;
+    border-bottom: 1px solid white;
+}
+
+.show-nav {
     transition: all 0.3s linear;
     transform: translateX(0%);
+  }
+
+  .oggy-description{
+    text-align: center;
+    font-family: 'DotGothic16', cursive;
+    color: var(--yellow);
+    padding: 1rem;
+    margin-top: 3rem;
+  }
+  .oggy-description p{
+    max-width: 80%;
+    margin: 0.5rem auto;
+    letter-spacing: 1px;
+    line-height: 26px;
   }
