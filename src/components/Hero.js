@@ -4,11 +4,23 @@ import logo from '../utils/ourlogo.png'
 import MenuIcon from '@mui/icons-material/Menu';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import TelegramIcon from '@mui/icons-material/Telegram';
-
+import {navlinks} from '../links/navlinks'
+import CancelPresentationIcon from '@mui/icons-material/CancelPresentation';
 const Hero = () => {
   const [showNav, setShowNav] = useState(false)
   return (
     <div className='hero-container'>
+
+      <div className={showNav ? "nav-menu show-nav" : "nav-menu"}>
+<CancelPresentationIcon onClick={()=> setShowNav(!showNav)} style={{cursor:'pointer',margin:'1rem 0'}}/>
+        {navlinks?.map((el,i)=>{
+          return <a key={i} className='nav-link-item'>{el.title}</a>
+        })}
+        <img src={logo} alt='logo' className='logo'
+        style={{marginTop:'5rem'}}/>
+      </div>
+
+
       <div className='nav-header'>
         <div style={{display:'flex',alignItems:'center'}}>
         <img className='logo' alt='oggyfloki logo' src={logo}/>
