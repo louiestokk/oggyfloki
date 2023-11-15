@@ -12,9 +12,8 @@ const FooterNav = () => {
       <div className="footer-column">
         <h3>Community</h3>
         <ul>
-          <li><a href="#!">Discord</a></li>
-          <li><a href="#!">Telegram</a></li>
-          <li><a href="#!">Twitter</a></li>
+          <li><a href="https://t.me/oggyfloki">Telegram</a></li>
+          <li><a href="https://twitter.com/OggyFloki">Twitter</a></li>
         </ul>
       </div>
       <div className="footer-column">

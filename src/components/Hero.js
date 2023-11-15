@@ -37,8 +37,8 @@ const Hero = () => {
   <button className='joinbtn'>PINKSALE PRESALE</button>
   <button className='playbtn'>PLAY OGGYFLOKI</button>
   <div style={{display:'flex',alignItems:'center'}}>
-<TelegramIcon className='icons' style={{fontSize:'2.5rem',marginRight:'0.5rem'}}/>
-  <TwitterIcon className='icons' style={{fontSize:'2.5rem',marginLeft:'0.5rem'}}/>
+<TelegramIcon className='icons' style={{fontSize:'2.5rem',marginRight:'0.5rem',cursor:'pointer'}} onClick={()=> window.location.href='https://t.me/oggyfloki'}/>
+  <TwitterIcon className='icons' style={{fontSize:'2.5rem',marginLeft:'0.5rem',cursor:'pointer'}} onClick={()=> window.location.href='https://twitter.com/OggyFloki'}/>
   </div>
 
 </div>
