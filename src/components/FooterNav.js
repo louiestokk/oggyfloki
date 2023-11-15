@@ -19,8 +19,7 @@ const FooterNav = () => {
       <div className="footer-column">
         <h3>Resources</h3>
         <ul>
-          <li><a href="#!">Whitepaper</a></li>
-          <li><a href="#!">Roadmap</a></li>
+          <li><a href="#roadmap">Roadmap</a></li>
           <li><a href="#!">Exchange</a></li>
         </ul>
       </div>
