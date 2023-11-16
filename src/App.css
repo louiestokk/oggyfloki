@@ -433,14 +433,33 @@ color: white;
     }
   }
   
-  .bottom-fot{
-    background-color: var(--yellow);
-    height: 5rem;
-    width: 100%;
-    text-align: center;
-    padding: 0.8rem;
-    color: white;
 
+  .bottom-fot {
+    text-align: center;
+    color: #666;
+    padding: 20px 0;
+    font-size: 0.75rem;
+    border-top: 1px solid #333;
+    margin-top: 20px;
+    position: relative;
+  }
+  
+  /* Glödande texteffekt för bottom-fot */
+  .bottom-fot p {
+    display: inline-block;
+    color: #FFF;
+    text-shadow: 0 0 10px #FFC900, 0 0 20px #FFC900; /* Textskugga som ger en glödande effekt */
+    animation: glow 2s ease-in-out infinite alternate;
+  }
+  
+  /* Nyckelframes för glödande textanimation */
+  @keyframes glow {
+    from {
+      text-shadow: 0 0 10px #FFC900, 0 0 20px #FFC900, 0 0 30px #FFC900;
+    }
+    to {
+      text-shadow: 0 0 20px #FFC900, 0 0 30px #FFC900, 0 0 40px #FFC900;
+    }
   }
   .bottom-fot p{
     margin: 0.35rem 0;
