@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect,useRef } from 'react';
 
 const Game = () => {
   // Definiera spelets tillstånd som t.ex. ormens position, myntposition, poäng, etc.
@@ -6,7 +6,7 @@ const Game = () => {
   const [coin, setCoin] = useState({ x: 5, y: 5 }); // Myntets position
   const [direction, setDirection] = useState({ x: 0, y: -1 }); // Starta rörelseriktning
   const [score, setScore] = useState(0); // Spelarens poäng
-
+  const touchStartPos = useRef({ x: 0, y: 0 });
   // Hantera tangenttryckningar och uppdatera riktning baserat på det
   const handleKeyPress = e => {
     switch (e.key) {
@@ -88,10 +88,61 @@ const Game = () => {
     };
     setCoin(newCoinPosition);
   };
+  
+  const handleTouchStart = (e) => {
+    touchStartPos.current = {
+      x: e.touches[0].clientX,
+      y: e.touches[0].clientY,
+    };
+  };
+  
+  const handleTouchMove = (e) => {
+    if (!touchStartPos.current) {
+      return;
+    }
+  
+    const currentX = e.touches[0].clientX;
+    const currentY = e.touches[0].clientY;
+    const diffX = touchStartPos.current.x - currentX;
+    const diffY = touchStartPos.current.y - currentY;
+  
+    if (Math.abs(diffX) > Math.abs(diffY)) {
+      // Horizontal rörelse
+      if (diffX > 0) {
+        // Svep åt vänster
+        setDirection({ x: -1, y: 0 });
+      } else {
+        // Svep åt höger
+        setDirection({ x: 1, y: 0 });
+      }
+    } else {
+      // Vertikal rörelse
+      if (diffY > 0) {
+        // Svep uppåt
+        setDirection({ x: 0, y: -1 });
+      } else {
+        // Svep nedåt
+        setDirection({ x: 0, y: 1 });
+      }
+    }
+  
+    // Förhindra ytterligare sveprörelser från att registreras
+    touchStartPos.current = null;
+  };
+  
+  const handleTouchEnd = (e) => {
+    // Hantera slutet på en touch (om nödvändigt)
+  };
 
   // Rendera spelet
   return (
-    <div>
+    <div
+    onTouchStart={handleTouchStart}
+    onTouchMove={handleTouchMove}
+    onTouchEnd={handleTouchEnd}
+    // ... andra props
+  >
+  <div>
       <h2 style={{maxWidth:'300px'}}>Play the classic game of Snake while we develop the OGGYFLOKI GAME</h2>
       <h1 style={{color:'white'}}>Score: {score}</h1>
       <div style={{ display: 'grid', gridTemplateColumns: 'repeat(10, 20px)' }}>
@@ -114,6 +165,8 @@ const Game = () => {
         )}
       </div>
     </div>
+  </div>
+    
   );
 };
 
