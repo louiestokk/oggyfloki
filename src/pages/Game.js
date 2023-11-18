@@ -141,11 +141,12 @@ const Game = () => {
     onTouchMove={handleTouchMove}
     onTouchEnd={handleTouchEnd}
     // ... andra props
+    
   >
-  <div style={{overflowX:'hidden'}}>
+  <div >
       <h2 style={{maxWidth:'300px'}}>Play the classic game of Snake while we develop the OGGYFLOKI GAME</h2>
       <h1 style={{color:'white'}}>Score: {score}</h1>
-      <div style={{ display: 'grid', gridTemplateColumns: 'repeat(10, 20px)',overflowX:'hidden' }}>
+      <div style={{ display: 'grid', gridTemplateColumns: 'repeat(10, 20px)',overflowX:'hidden',overFlowY:'hidden' }}>
         {Array.from({ length: 10 }, (_, rowIndex) =>
           Array.from({ length: 10 }, (_, columnIndex) => {
             const isSnake = snake.some(segment => segment.x === columnIndex && segment.y === rowIndex);
