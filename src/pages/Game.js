@@ -171,6 +171,8 @@ const Game = () => {
           }),
         )}
       </div>
+      <p style={{color:'yellow',marginTop:'1rem'}}>Desktop: PLay with the arrows  🔼 🔽  </p>
+      <p style={{color:'pink'}}>Mobile: drag / touch</p>
     </div>
   </div>
     
