@@ -6,6 +6,7 @@ import TwitterIcon from '@mui/icons-material/Twitter';
 import TelegramIcon from '@mui/icons-material/Telegram';
 import {navlinks} from '../links/navlinks'
 import CancelPresentationIcon from '@mui/icons-material/CancelPresentation';
+import { Link } from 'react-router-dom';
 const Hero = () => {
   const [showNav, setShowNav] = useState(false)
   return (
@@ -34,8 +35,13 @@ const Hero = () => {
       </div>
       <img src={heroimg} alt='oggyfloki adventure' className='hero-mainImg'/>
 <div className='hero-content'>
+  <Link to={'/'}>
   <button className='joinbtn'>PINKSALE PRESALE</button>
-  <button className='playbtn'>PLAY OGGYFLOKI</button>
+  </Link>
+<Link to={'/app-oggyfloki'}>
+<button className='playbtn'>PLAY OGGYFLOKI</button>
+</Link>
+
   <div style={{display:'flex',alignItems:'center'}}>
 <TelegramIcon className='icons' style={{fontSize:'2.5rem',marginRight:'0.5rem',cursor:'pointer'}} onClick={()=> window.location.href='https://t.me/oggyfloki'}/>
   <TwitterIcon className='icons' style={{fontSize:'2.5rem',marginLeft:'0.5rem',cursor:'pointer'}} onClick={()=> window.location.href='https://twitter.com/OggyFloki'}/>
