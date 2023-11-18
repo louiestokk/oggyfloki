@@ -90,6 +90,7 @@ const Game = () => {
   };
   
   const handleTouchStart = (e) => {
+    e.preventDefault();
     touchStartPos.current = {
       x: e.touches[0].clientX,
       y: e.touches[0].clientY,
@@ -97,6 +98,7 @@ const Game = () => {
   };
   
   const handleTouchMove = (e) => {
+    e.preventDefault(); 
     if (!touchStartPos.current) {
       return;
     }
