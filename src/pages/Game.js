@@ -133,6 +133,7 @@ const Game = () => {
   };
   
   const handleTouchEnd = (e) => {
+    e.preventDefault();
     // Hantera slutet på en touch (om nödvändigt)
   };
 
@@ -142,7 +143,10 @@ const Game = () => {
     onTouchStart={handleTouchStart}
     onTouchMove={handleTouchMove}
     onTouchEnd={handleTouchEnd}
-    // ... andra props
+    style={{ 
+      userSelect: 'none',
+      touchAction: 'none' 
+    }}
     
   >
   <div >
