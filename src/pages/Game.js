@@ -93,7 +93,7 @@ const Game = () => {
   return (
     <div>
       <h2 style={{maxWidth:'300px'}}>Play the classic game of Snake while we develop the OGGYFLOKI GAME</h2>
-      <h1>Score: {score}</h1>
+      <h1 style={{color:'white'}}>Score: {score}</h1>
       <div style={{ display: 'grid', gridTemplateColumns: 'repeat(10, 20px)' }}>
         {Array.from({ length: 10 }, (_, rowIndex) =>
           Array.from({ length: 10 }, (_, columnIndex) => {
