@@ -1,6 +1,6 @@
 import React,{useState} from 'react'
 import heroimg from '../utils/hero1.webp'
-import logo from '../utils/ourlogo.png'
+import logo from '../utils/ourlogo.jpg'
 import MenuIcon from '@mui/icons-material/Menu';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import TelegramIcon from '@mui/icons-material/Telegram';
