@@ -244,6 +244,9 @@ padding: 0.5rem;
 .playbtn{
 background-color: var(--yellow);
 color: white;
+display: flex;
+align-items: center;
+justify-content: center;
 }
 
 .icons{
@@ -507,4 +510,25 @@ color: white;
     border-radius: 10px; /* Rounded corners for the image */
     box-shadow: 0 2px 15px rgba(0, 0, 0, 0.3); /* Subtle shadow for the image */
   }
-  
+  .whitepaper-sub{
+    margin: 1rem 0;
+  }
+  .whitepaper-sub span{
+    font-size: 0.8rem;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  .whitepaper-sub h3{
+    margin-bottom: 0.3rem;
+  }
+  .whitepaper-sub p{
+    max-width: 500px;
+  }
+.whitepaper-menu{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2rem
+}
+.whit-con-latest{
+  color: var(--yellow);
+  padding: 0.75rem;
+}

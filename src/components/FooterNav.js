@@ -20,7 +20,10 @@ const FooterNav = () => {
         <h3>Resources</h3>
         <ul>
           <li><a href="#roadmap">Roadmap</a></li>
-          <li><a href="#!">Exchange</a></li>
+          <li><a href="https://github.com/expelee-co/Smart-Contract-Audit/blob/main/Oggy%20Floki%20expelee%20audit.pdf" target='_blank'>Audit</a></li>
+          <li><a href="/oggyfloki-white-paper">White Paper</a></li>
+          <li><a href="https://bscscan.com/address/0x9acbbad33b8d66cbffd46c573e175ae923b17992" target='_blank'>Contract</a></li>
+          <li><a href="https://pancakeswap.finance" target='_blank'>Exchange</a></li>
         </ul>
       </div>
     </footer>

@@ -2,6 +2,7 @@ import './App.css';
 import Home from './pages/Home';
 import {Routes,Route} from 'react-router-dom'
 import Game from './pages/Game';
+import WhitePaper from './pages/WhitePaper';
 const App=()=> {
   return (
     <div className="App">
@@ -9,6 +10,7 @@ const App=()=> {
       <Routes>
     <Route path="/" element={   <Home />} />
     <Route path="/app-oggyfloki" element={   <Game />} />
+    <Route path="/oggyfloki-white-paper" element={   <WhitePaper />} />
     </Routes>
       </div>
  
