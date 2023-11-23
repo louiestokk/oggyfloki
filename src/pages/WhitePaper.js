@@ -7,6 +7,7 @@ const WhitePaper = () => {
     <div className='divider'></div>
     <h1 id='whov' style={{marginBottom:'2rem'}}>OggyFloki ($OGF) Whitepaper</h1>
     <div className='whitepaper-menu'>
+    <p>Navigate</p>
       <a href='#whov'>1. Project Overview</a>
       <a href='#whconc'>2. Consensus Mechanism</a>
       <a href='#whectokkdk'>3. Economic Design and Tokenomics</a>

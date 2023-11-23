@@ -535,3 +535,6 @@ justify-content: center;
 .whit-con-latest a{
   color: white;
 }
+.whit-con-latest a:hover{
+  color: var(--yellow);
+}
