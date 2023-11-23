@@ -24,6 +24,8 @@ const FooterNav = () => {
           <li><Link to="/oggyfloki-white-paper">White Paper</Link></li>
           <li><a href="https://bscscan.com/address/0x9acbbad33b8d66cbffd46c573e175ae923b17992" target='_blank'>Contract</a></li>
           <li><a href="https://pancakeswap.finance" target='_blank'>Exchange</a></li>
+          <li><a href="https://github.com/louiestokk/oggyfloki/blob/main/src/utils/whitepaper.pdf" target='_blank'>Download Whitepaper</a></li>
+
         </ul>
       </div>
     </footer>
