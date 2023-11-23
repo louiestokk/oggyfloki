@@ -13,7 +13,7 @@ const WhitePaper = () => {
       <a href='#whectokkdk'>3. Economic Design and Tokenomics</a>
       <a href='#whuseaal'>4. Use Cases and Applications</a>
       <a href='#secmeazwh'>5. Security Measures</a>
-      <a href='#legcompwh'>6. Legal Comaliance</a>
+      <a href='#legcompwh'>6. Legal Compliance</a>
       <a href='#teamwht'>7. The Team</a>
       <a href='#roadmpwhtp'>8. Roadmap</a>
       <a href='#whtpcontact'>9. Contact Information</a>
