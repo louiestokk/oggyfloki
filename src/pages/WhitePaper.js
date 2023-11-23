@@ -226,7 +226,7 @@ const WhitePaper = () => {
 <p>The roadmap for OggyFloki ($OGF) outlines our strategic plan to develop and grow the project. It reflects our commitment to transparency and provides our community with clear expectations for the future.</p>
 
 <div className='whitepaper-sub'>
-  <h4>Phase 1: Foundation and Community Building</h4>
+  <h3>Phase 1: Foundation and Community Building</h3>
   <p>
   <strong>Project Inception: </strong>
   Ideation and technical development of the OggyFloki token.
@@ -245,22 +245,63 @@ const WhitePaper = () => {
   </p>
 </div>
 <div className='whitepaper-sub'>
-  <h4>Phase 1: Foundation and Community Building</h4>
+  <h3>Phase 2: Expansion and Market Penetration</h3>
   <p>
-  <strong>Project Inception: </strong>
-  Ideation and technical development of the OggyFloki token.
+  <strong>Presale Preparation: </strong>
+  Setting the stage for a successful presale event.
   </p>
   <p>
-  <strong>Community Engagement: </strong>
-  Establishing a robust presence on social media to foster a supportive OggyFloki community.
+  <strong>Strategic Partnerships:: </strong>
+  ollaborating with key influencers and other meme tokens to expand our reach.
   </p>
   <p>
-  <strong>Content Development: </strong>
-  Publishing informative articles on Medium and releasing the comprehensive whitepaper.
+  <strong>Team Growth: </strong>
+  Bringing additional skilled developers on board to enhance our technical capabilities.
   </p>
   <p>
-  <strong>Private Sale: </strong>
-  Conducting a targeted private sale to refine our tokenomics based on community feedback.
+  <strong>Staking Development: </strong>
+  Implementing a staking mechanism to reward our loyal community.
+
+  </p>
+  <p>
+  <strong>Marketing Initiatives: </strong>
+  Launching targeted marketing campaigns to amplify our message.
+  </p>
+  <p>
+  <strong>Decentralized Exchange Listings:: </strong>
+  Making $OGF available on leading DEXs and involving the community in governance.
+  </p>
+</div>
+<div className='whitepaper-sub'>
+  <h3>Phase 3: Scaling and Ecosystem Development</h3>
+  <p>
+  <strong>Public Sale: </strong>
+  Opening the doors for widespread participation in the OggyFloki project.
+  </p>
+  <p>
+  <strong>Mobile App Launch: </strong>
+  Providing a seamless experience with the launch of the OggyFloki mobile app.
+  </p>
+  <p>
+  <strong>Charity Integration: </strong>
+  Developing a dedicated platform for charitable contributions and engagement.
+  </p>
+  <p>
+  <strong>Enhanced Holder Rewards: </strong>
+  Expanding the reward system for token holders.
+  </p>
+  <p>
+  <strong>Wallet and Exchange Partnerships: </strong>
+  Securing collaborations with wallets and exchanges to improve accessibility.
+
+  </p>
+  <p>
+  <strong>Centralized Exchange Listings:: </strong>
+  Aiming for listings on prominent CEXs to enhance liquidity and profile.
+  </p>
+  <p>
+  <strong>Community Events: </strong>
+  Organizing events to strengthen community bonds and gather insights for future development
   </p>
 </div>
   <div className='divider'></div>
