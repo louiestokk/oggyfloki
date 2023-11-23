@@ -3,12 +3,14 @@ import Home from './pages/Home';
 import {Routes,Route} from 'react-router-dom'
 import Game from './pages/Game';
 import WhitePaper from './pages/WhitePaper';
+import ErrorPage from './pages/ErrorPage';
 const App=()=> {
   return (
     <div className="App">
       <div>
       <Routes>
     <Route path="/" element={   <Home />} />
+    <Route path="*" element={   <ErrorPage />} />
     <Route path="/app-oggyfloki" element={   <Game />} />
     <Route path="/oggyfloki-white-paper" element={   <WhitePaper />} />
     </Routes>
