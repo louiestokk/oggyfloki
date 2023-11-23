@@ -1,6 +1,6 @@
 import React from 'react';
 import logo from '../utils/ourlogo.png'
-
+import { Link } from 'react-router-dom';
 const FooterNav = () => {
   return (
     <>
@@ -21,7 +21,7 @@ const FooterNav = () => {
         <ul>
           <li><a href="#roadmap">Roadmap</a></li>
           <li><a href="https://github.com/expelee-co/Smart-Contract-Audit/blob/main/Oggy%20Floki%20expelee%20audit.pdf" target='_blank'>Audit</a></li>
-          <li><a href="/oggyfloki-white-paper">White Paper</a></li>
+          <li><Link to="/oggyfloki-white-paper">White Paper</Link></li>
           <li><a href="https://bscscan.com/address/0x9acbbad33b8d66cbffd46c573e175ae923b17992" target='_blank'>Contract</a></li>
           <li><a href="https://pancakeswap.finance" target='_blank'>Exchange</a></li>
         </ul>
