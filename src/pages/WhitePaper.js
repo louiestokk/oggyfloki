@@ -16,7 +16,7 @@ const WhitePaper = () => {
       <a href='#legcompwh'>6. Legal Comaliance</a>
       <a href='#teamwht'>7. The Team</a>
       <a href='#roadmpwhtp'>8. Roadmap</a>
-
+      <a href='#whtpcontact'>9. Contact Information</a>
     </div>
     <div className='whitepaper-sub'>
     <h3>1. Project Overview</h3>
@@ -303,6 +303,12 @@ const WhitePaper = () => {
   <strong>Community Events: </strong>
   Organizing events to strengthen community bonds and gather insights for future development
   </p>
+</div>
+<h3 id='whtpcontact'>Contact Information</h3>
+<div className='whitepaper-sub'>
+  <p>Engagement and open communication channels are the lifelines of the OggyFloki community. We invite and encourage all stakeholders to connect with us for more information, inquiries about participation, or any other interest in the OggyFloki project.</p>
+  <h4 style={{marginTop:'2rem'}}>Reach Out Through Our Website</h4>
+  <h4 style={{marginTop:'0.5rem'}}>Join the Conversation on Telegram</h4>
 </div>
   <div className='divider'></div>
   <img src={logo} style={{height:'40px',width:'40px',cursor:'pointer'}} alt='logo' onClick={()=>window.location.href='/'}/>
