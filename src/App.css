@@ -532,3 +532,6 @@ justify-content: center;
   color: var(--yellow);
   padding: 0.75rem;
 }
+.whit-con-latest a{
+  color: white;
+}
