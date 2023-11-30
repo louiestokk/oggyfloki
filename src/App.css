@@ -423,6 +423,7 @@ cursor: pointer;
     transition: color 0.3s ease, transform 0.3s ease;
     color: var(--yellow);
     cursor: pointer;
+    letter-spacing: 1px;
   }
   
   .footer-column ul li a:hover {
