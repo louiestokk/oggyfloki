@@ -17,9 +17,10 @@ const Hero = () => {
         {navlinks?.map((el,i)=>{
           return <a key={i} href={`#${el.path}`}  className='nav-link-item' onClick={()=> setShowNav(!showNav)}>{el.title}</a>
         })}
-       <Link to={'/oggyfloki-white-paper'} style={{margin:'0.75rem',fontSize:'1.2rem'}}>WHITE PAPER</Link>
-       <a href='https://github.com/expelee-co/Smart-Contract-Audit/blob/main/Oggy%20Floki%20expelee%20audit.pdf' target='_blank' style={{fontSize:'1.2rem'}}>AUDIT</a>
-       <a href='https://bscscan.com/address/0x9acbbad33b8d66cbffd46c573e175ae923b17992' target='_blank' style={{fontSize:'1.35rem',marginTop:'0.5rem'}}>Contract</a>
+       <Link to={'/oggyfloki-white-paper'}className='nav-link-item'>WHITE PAPER</Link>
+       <a href='https://github.com/expelee-co/Smart-Contract-Audit/blob/main/Oggy%20Floki%20expelee%20audit.pdf' target='_blank' className='nav-link-item'>AUDIT 🎖</a>
+       <a href='https://pinksale.notion.site/OGGYFLOKI-KYC-Verification-d9562b054cce4ea8909efb2783532056' target='_blank'  className='nav-link-item'>KYC 🎖</a>
+       <a href='https://bscscan.com/address/0x9acbbad33b8d66cbffd46c573e175ae923b17992' target='_blank' className='nav-link-item'>Contract</a>
         <img src={logo} alt='logo' className='logo'
         style={{marginTop:'3rem'}}/>
       </div>
