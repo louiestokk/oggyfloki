@@ -544,3 +544,141 @@ cursor: pointer;
 .whit-con-latest a:hover{
   color: var(--yellow);
 }
+
+/*  */
+.game-presentation-container {
+  margin: 3rem 0;
+  display: flex;
+  flex-direction: column; /* Ändra till kolumnlayout på mindre skärmar */
+  align-items: center;
+  padding: 40px;
+  background-color: #000;
+  color: #ffc900;
+}
+
+.game-info {
+  text-align: center; /* Justera textcentrering för mobila enheter */
+  margin-bottom: 20px;
+}
+
+.game-info  h2 {
+  color: #ffc900;
+}
+
+.game-info  p {
+  color: #ffc900;
+  max-width: 600px;
+  margin: 20px 0;
+  line-height: 28px;
+}
+
+.explore-button {
+  background-color: #ffc900;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.explore-button:hover {
+  background-color: #45a049;
+}
+
+.game-gif {
+  margin-bottom: 20px; /* Justera mellanrummet mellan text och bild för mobila enheter */
+}
+
+.game-gif img {
+  border: 5px solid #ffc900;
+  max-width: 100%;
+  height: auto;
+}
+
+@media (min-width: 768px) {
+  /* Anpassningar för skärmar som är 768px eller större (tablet och desktop) */
+  .game-presentation-container {
+    flex-direction: row; /* Återgå till radlayout på större skärmar */
+    justify-content: space-between;
+  }
+
+  .game-info {
+    text-align: left;
+  }
+
+  .game-gif {
+    margin-bottom: 0;
+    margin-left: 40px;
+  }
+}
+
+/*  */
+
+.video-presentation-container {
+  margin: 3rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 40px;
+  background-color: #1f1f1f;
+  color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+}
+
+.video-wrapper {
+  width: 100%;
+  max-width: 800px;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.react-youtube {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.video-wrapper:hover .react-youtube {
+  transform: scale(1.05);
+}
+
+.video-info {
+  text-align: center;
+}
+
+.video-presentation-container h2 {
+  margin-top: 1rem;
+  color: #ffc900;
+  margin-bottom: 10px;
+}
+
+.video-presentation-container p {
+  color: #ccc;
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.5;
+}
+
+/* Extra effekter för presentation-container */
+.video-presentation-container::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(rgba(31, 31, 31, 0), rgba(31, 31, 31, 0.8)); /* Gradient över bakgrund */
+  z-index: -1;
+}
+
+@media (max-width: 768px) {
+  .video-presentation-container {
+    padding: 20px;
+  }
+}

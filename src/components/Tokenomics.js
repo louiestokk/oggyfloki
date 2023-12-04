@@ -13,7 +13,7 @@ const Tokenomics = () => {
         <img src={dex} alt='dexview logo'/>
         <img src={pinksales} alt='pinksale logo'/>
         <img src={expelee} alt='expelee.com logo'/>
-        <img src={elit} alt='crypto elite  logo' style={{height:'200px'}}/>
+        <img src={elit} alt='crypto elite  logo' style={{height:'160px'}}/>
         <img src={karan} alt='karan tehe wizard'/>
       </div>
       <div className='divider'></div>
