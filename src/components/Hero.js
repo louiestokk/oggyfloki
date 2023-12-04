@@ -20,7 +20,7 @@ const Hero = () => {
        <Link to={'/oggyfloki-white-paper'}className='nav-link-item'>WHITE PAPER</Link>
        <a href='https://github.com/expelee-co/Smart-Contract-Audit/blob/main/Oggy%20Floki%20expelee%20audit.pdf' target='_blank' className='nav-link-item'>AUDIT 🎖</a>
        <a href='https://pinksale.notion.site/OGGYFLOKI-KYC-Verification-d9562b054cce4ea8909efb2783532056' target='_blank'  className='nav-link-item'>KYC 🎖</a>
-       <a href='https://bscscan.com/address/0x9acbbad33b8d66cbffd46c573e175ae923b17992' target='_blank' className='nav-link-item'>Contract</a>
+       <a href='https://bscscan.com/address/0x03002eb4de8Ff52018da7f65020da66094166bb6#code' target='_blank' className='nav-link-item'>Contract</a>
         <img src={logo} alt='logo' className='logo'
         style={{marginTop:'3rem'}}/>
       </div>

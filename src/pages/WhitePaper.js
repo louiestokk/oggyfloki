@@ -6,8 +6,8 @@ const WhitePaper = () => {
     <img src={logo} style={{height:'40px',width:'40px',cursor:'pointer'}} alt='logo' onClick={()=>window.location.href='/'}/>
     
     <div className='divider'></div>
-    <a href="https://github.com/louiestokk/oggyfloki/blob/main/src/utils/whitepaper.pdf" target='_blank' style={{color:'blue'}}>Download Whitepaper</a>
-    <h1 id='whov' style={{marginBottom:'2rem',marginTop:'1rem'}}>OggyFloki ($OGF) Whitepaper</h1>
+    <a href="https://github.com/louiestokk/oggyfloki/blob/main/src/utils/whitepaper.pdf" target='_blank' style={{color:'blue',fontSize:'1.5rem',border:'1px solid blue',padding:'0.5rem',borderRadius:'5px'}}>Download Whitepaper</a>
+    <h1 id='whov' style={{marginBottom:'2rem',marginTop:'3rem'}}>OggyFloki ($OGF) Whitepaper</h1>
     <div className='whitepaper-menu'>
     <p>Navigate</p>
       <a href='#whov'>1. Project Overview</a>

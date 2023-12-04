@@ -23,7 +23,7 @@ const FooterNav = () => {
           <li>
           <a href='https://pinksale.notion.site/OGGYFLOKI-KYC-Verification-d9562b054cce4ea8909efb2783532056' target='_blank'>KYC 🎖</a>
           </li>
-          <li><a href="https://bscscan.com/address/0x9acbbad33b8d66cbffd46c573e175ae923b17992" target='_blank'>Contract</a></li>
+          <li><a href="https://bscscan.com/address/0x03002eb4de8Ff52018da7f65020da66094166bb6#code" target='_blank'>Contract</a></li>
           <li><a href="https://pancakeswap.finance" target='_blank'>Exchange</a></li>
           <li><a href="https://github.com/louiestokk/oggyfloki/blob/main/src/utils/whitepaper.pdf" target='_blank'>Whitepaper</a></li>
           <li><a href="#roadmap">Roadmap</a></li>
