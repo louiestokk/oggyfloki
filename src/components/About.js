@@ -35,7 +35,7 @@ const About = () => {
         <span>Burn</span>
       </div>
      </section>
-     <button>BUY $OGF</button>
+     <button onClick={()=> window.location.href='https://www.pinksale.finance/launchpad/0x5850A80bEBDfad613193D358b93017A5bfE1d9a5?chain=BSC'}>BUY $OGF</button>
     </div>
   )
 }
