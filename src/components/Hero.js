@@ -39,7 +39,7 @@ const Hero = () => {
       </div>
       <img src={heroimg} alt='oggyfloki adventure' className='hero-mainImg'/>
 <div className='hero-content'>
-  <Link to={'https://www.pinksale.finance/launchpad/0x5850A80bEBDfad613193D358b93017A5bfE1d9a5?chain=BSC'}>
+  <Link to={'https://www.pinksale.finance/launchpad/0x67d7372f9bA88989D7a53ba88EF8F44d5CFfc3f4?chain=BSC'}>
   <button className='joinbtn'>PINKSALE PRESALE</button>
   </Link>
   <Link to={'/app-oggyfloki'}>
