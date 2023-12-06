@@ -9,12 +9,14 @@ const OggyDescription = lazy(()=>import('../components/OggyDescription'))
 const OggyProfits = lazy(()=>import('../components/OggyProfits'))
 const GameDevelope = lazy(()=> import('../components/GameDevelop'))
 const OggyPres = lazy(()=> import('../components/VideoPresentation'))
+const SocialIcons = lazy(()=> import('../components/SocialIcons'))
 const Home = () => {
   return (
     <div>
         <Hero />
         <OggyDescription />
         <About/>
+        <SocialIcons />
         <OggyProfits />
         <Tokenomics />
         <GameDevelope />
