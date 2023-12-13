@@ -702,3 +702,12 @@ transition: all 0.3s linear;
 .social-icons-container img:hover{
   transform: translateY(-10px);
 }
+.career-container{
+  height: 100vh;
+  width: 100vw;
+  color: var(--yellow);
+}
+.career-footer{
+
+
+}
