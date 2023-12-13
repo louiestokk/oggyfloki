@@ -8,7 +8,6 @@ const styles = {
       fontFamily: 'Arial, sans-serif',
       color: '#333',
       textAlign: 'center',
-      maxWidth: '800px',
       margin: '0 auto',
     
     },
@@ -83,7 +82,7 @@ const Career = () => {
       <h1 style={styles.header}>Join Our Team at OGGY FLOKI</h1>
       <p style={{textAlign:'center',maxWidth:'600px',margin:'0.5rem auto',color:'white'}}>At OGGY FLOKI, we're always on the lookout for exceptional talents to join our diverse and innovative team</p>
       <h2 style={{marginTop:'1rem'}}>How to Apply:</h2>
-      <div style={{padding:'1.4rem'}}>
+      <div style={{padding:'1.4rem',maxWidth:'800px',margin:'0 auto'}}>
       <div style={{ ...styles.stepBox}} onMouseEnter={toggleHover} onMouseLeave={toggleHover}>
       <p style={styles.paragraph}>1. <strong>Online Application:</strong><br></br> Start your journey with us by applying through our career portal on our website. This is the only channel through which we accept applications, ensuring a streamlined and fair process for all candidates.</p>
 
