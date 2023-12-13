@@ -88,7 +88,7 @@ const Career = () => {
 
       </div>
       <div style={{ ...styles.stepBox }} onMouseEnter={toggleHover} onMouseLeave={toggleHover}>
-      <p style={styles.paragraph}>2.<strong>Application Review:</strong> <br></br>If your application aligns with our needs, you'll move forward in our hiring process. This involves a comprehensive review of your skills, experience, and potential fit with our team.</p>
+      <p style={styles.paragraph}>2. <strong>Application Review:</strong> <br></br>If your application aligns with our needs, you'll move forward in our hiring process. This involves a comprehensive review of your skills, experience, and potential fit with our team.</p>
 
       </div>
       <div style={{ ...styles.stepBox }} onMouseEnter={toggleHover} onMouseLeave={toggleHover}>
