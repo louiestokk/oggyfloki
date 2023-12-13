@@ -27,7 +27,7 @@ const FooterNav = () => {
           <li><a href="https://pancakeswap.finance" target='_blank'>Exchange</a></li>
           <li><a href="https://github.com/louiestokk/oggyfloki/blob/main/src/utils/whitepaper.pdf" target='_blank'>Whitepaper</a></li>
           <li><a href="#roadmap">Roadmap</a></li>
-          <li><Link to='/career-portal'  className='nav-link-item' style={{fontSize:'1rem'}}>Career 💻</Link></li>
+          <li><a href='https://form.jotform.com/233456512659361'  className='nav-link-item' style={{fontSize:'1rem'}} target='_blank'>Career 💻</a></li>
         </ul>
       </div>
     </footer>
