@@ -11,7 +11,7 @@ const App=()=> {
       <div>
       <Routes>
     <Route path="/" element={   <Home />} />
-    <Route path="/career" element={   <Career />} />
+    <Route path="/career-portal" element={   <Career />} />
     <Route path="*" element={   <ErrorPage />} />
     <Route path="/app-oggyfloki" element={   <Game />} />
     <Route path="/oggyfloki-white-paper" element={   <WhitePaper />} />
