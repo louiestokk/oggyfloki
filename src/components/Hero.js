@@ -7,11 +7,16 @@ import TelegramIcon from '@mui/icons-material/Telegram';
 import {navlinks} from '../links/navlinks'
 import CancelPresentationIcon from '@mui/icons-material/CancelPresentation';
 import { Link } from 'react-router-dom';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import VerifiedUserIcon from '@mui/icons-material/VerifiedUser';
 const Hero = () => {
   const [showNav, setShowNav] = useState(false)
+  const notify = () => toast(`Fair Launch now on Monday! Stay Tuned! Telegram: oggyfloki`);
+  
   return (
     <div className='hero-container'>
+      <ToastContainer type='resolved'/>
       <div className={showNav ? "nav-menu show-nav" : "nav-menu"}>
 <CancelPresentationIcon onClick={()=> setShowNav(!showNav)}  className='close-btn'/>
         {navlinks?.map((el,i)=>{
@@ -40,8 +45,8 @@ const Hero = () => {
       </div>
       <img src={heroimg} alt='oggyfloki adventure' className='hero-mainImg'/>
 <div className='hero-content'>
-  <Link to={'https://www.pinksale.finance/launchpad/0x67d7372f9bA88989D7a53ba88EF8F44d5CFfc3f4?chain=BSC'}>
-  <button className='joinbtn'>PINKSALE PRESALE</button>
+  <Link to={'/'}>
+  <button className='joinbtn' onClick={()=> notify()}>PinkSale Fair Launch</button>
   </Link>
   <Link to={'/app-oggyfloki'}>
 <button className='playbtn'>PLAY OGGYFLOKI</button>
