@@ -45,8 +45,8 @@ const Hero = () => {
       </div>
       <img src={heroimg} alt='oggyfloki adventure' className='hero-mainImg'/>
 <div className='hero-content'>
-  <Link to={'/'}>
-  <button className='joinbtn' onClick={()=> notify()}>PinkSale Fair Launch</button>
+  <Link to={'https://www.pinksale.finance/launchpad/0xe053f49D4Df95F76752C615C1b115C1B4C1435Ff?chain=BSC'}>
+  <button className='joinbtn'>PinkSale Fair Launch</button>
   </Link>
   <Link to={'/app-oggyfloki'}>
 <button className='playbtn'>PLAY OGGYFLOKI</button>
