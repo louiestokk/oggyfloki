@@ -12,7 +12,7 @@ import 'react-toastify/dist/ReactToastify.css';
 import VerifiedUserIcon from '@mui/icons-material/VerifiedUser';
 const Hero = () => {
   const [showNav, setShowNav] = useState(false)
-  const notify = () => toast(`Fair Launch Soon! Stay Tuned!`);
+  const notify = () => toast(`PInksale: 25th Dec - 26th Dec! Don't miss this monumental event! `);
   
   return (
     <div className='hero-container'>
