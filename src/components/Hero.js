@@ -1,6 +1,7 @@
 import React,{useState} from 'react'
 import heroimg from '../utils/hero1.webp'
 import logo from '../utils/ourlogo.png'
+import navlogo from '../utils/logo.png'
 import MenuIcon from '@mui/icons-material/Menu';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import TelegramIcon from '@mui/icons-material/Telegram';
@@ -27,8 +28,8 @@ const Hero = () => {
        <a href='https://pinksale.notion.site/OGGYFLOKI-KYC-Verification-d9562b054cce4ea8909efb2783532056' target='_blank'  className='nav-link-item'>KYC 🎖</a>
        <a href='https://bscscan.com/address/0x03002eb4de8Ff52018da7f65020da66094166bb6#code' target='_blank' className='nav-link-item'>Contract</a>
        <a href='https://form.jotform.com/233456512659361' target='_blank'  className='nav-link-item'>Career 💻</a>
-        <img src={logo} alt='logo' className='logo'
-        style={{marginTop:'3rem'}}/>
+        <img src={navlogo} alt='logo' 
+        style={{marginTop:'1rem'}}/>
       </div>
 
 
