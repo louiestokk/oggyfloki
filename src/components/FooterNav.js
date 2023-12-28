@@ -28,12 +28,14 @@ const FooterNav = () => {
           <li><a href="https://github.com/louiestokk/oggyfloki/blob/main/src/utils/whitepaper.pdf" target='_blank'>Whitepaper</a></li>
           <li><a href="#roadmap">Roadmap</a></li>
           <li><a href='https://form.jotform.com/233456512659361'  className='nav-link-item' style={{fontSize:'1rem'}} target='_blank'>Career 💻</a></li>
+          <li><a href='mailto:contact@oggyfloki.com'  className='nav-link-item' style={{fontSize:'1rem'}} target='_blank'>Contact</a></li>
         </ul>
       </div>
     </footer>
       <div className='bottom-fot'>
-        <p>Copyright ©️ 2023 Oggy Floki</p>
-        <p>All Rights Reserved</p>
+        <p>Copyright ©️ 2023 Oggy Floki All Rights Reserved</p>
+        <a href='mailto:contact@oggyfloki.com' style={{margin:'0.5rem 0',fontSize:'0.9rem',color:'white'}}>contact@oggyfloki.com</a>
+
       </div>
     </>
    
