@@ -5,6 +5,7 @@ import Game from './pages/Game';
 import WhitePaper from './pages/WhitePaper';
 import ErrorPage from './pages/ErrorPage';
 import Career from './pages/Career';
+import Charity from './pages/Charity';
 const App=()=> {
   return (
     <div className="App">
@@ -15,6 +16,7 @@ const App=()=> {
     <Route path="/app-oggyfloki" element={   <Game />} />
     <Route path="/oggyfloki-white-paper" element={   <WhitePaper />} />
     <Route path="/career-portal" element={   <Career />} />
+    <Route path="/iandi-charity" element={   <Charity />} />
     </Routes>
       </div>
  

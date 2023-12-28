@@ -711,3 +711,82 @@ transition: all 0.3s linear;
 
 
 }
+.charity-container {
+  background-color: #f4f4f4;
+  color: #333;
+  font-family: 'Arial', sans-serif;
+  padding: 20px;
+}
+
+.charity-hero {
+  background: linear-gradient(
+                rgba(0, 90, 156, 0.6), 
+                rgba(0, 90, 156, 0.6)),
+              url('./utils//charit-oggyfloki.webp') no-repeat center;
+  background-size: cover;
+  color: #ffffff;
+  text-align: center;
+  padding: 40px 20px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+}
+
+.charity-hero h1, .charity-hero h2 {
+  margin: 0;
+  padding: 10px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  font-size: 2em; /* Larger font size */
+  animation: fadeIn 2s ease-in;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.charity-partners, .charity-support, .charity-join {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+  padding: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.charity-partners h2, .charity-support h2, .charity-join h2 {
+  color: #005a9c; /* Matching the hero background */
+  margin-bottom: 20px;
+}
+
+.charity-partners li, .charity-support p, .charity-join p {
+  font-size: 1.1em;
+  line-height: 1.6;
+}
+
+.donate-button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 15px 32px;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  margin-top: 20px;
+}
+
+.donate-button:hover {
+  background-color: #45a049;
+  transform: scale(1.05);
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .charity-hero h1, .charity-hero h2 {
+    font-size: 1.5em;
+  }
+}
