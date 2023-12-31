@@ -14,6 +14,8 @@ const FooterNav = () => {
         <ul>
           <li><a href="https://t.me/oggyfloki">Telegram</a></li>
           <li><a href="https://twitter.com/OggyFloki">Twitter</a></li>
+          <li><a href="https://discord.com/invite/t4wJq6HRqv">Discord</a></li>
+          <li><a href="https://chat.whatsapp.com/EogEoaCOyOA8KAsxDymcab">WhatsApp</a></li>
         </ul>
       </div>
       <div className="footer-column">

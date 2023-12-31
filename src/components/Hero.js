@@ -9,6 +9,7 @@ import {navlinks} from '../links/navlinks'
 import CancelPresentationIcon from '@mui/icons-material/CancelPresentation';
 import { Link } from 'react-router-dom';
 import { ToastContainer, toast } from 'react-toastify';
+import discordicon from '../utils/discord.png'
 import 'react-toastify/dist/ReactToastify.css';
 import VerifiedUserIcon from '@mui/icons-material/VerifiedUser';
 const Hero = () => {
@@ -55,6 +56,7 @@ const Hero = () => {
   <div style={{display:'flex',alignItems:'center'}}>
 <TelegramIcon className='icons' style={{fontSize:'2.5rem',marginRight:'0.5rem',cursor:'pointer'}} onClick={()=> window.location.href='https://t.me/oggyfloki'}/>
   <TwitterIcon className='icons' style={{fontSize:'2.5rem',marginLeft:'0.5rem',cursor:'pointer'}} onClick={()=> window.location.href='https://twitter.com/OggyFloki'}/>
+  <img src={discordicon} alt='discord logo' className='icons' style={{height:'42.5px',marginLeft:'1rem'}} onClick={()=> window.location.href='https://discord.com/invite/t4wJq6HRqv'}/>
   </div>
 
 </div>
