@@ -809,6 +809,7 @@ transition: all 0.3s linear;
   border: none;
   border-radius: 10px;
   margin-left: 0.5rem;
+  margin-right: 0.5rem;
 }
 .screendesk{
   position: absolute;
