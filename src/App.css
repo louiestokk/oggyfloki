@@ -222,10 +222,10 @@ padding: 0.5rem;
 } */
 
 .hero-content{
-  padding: 1rem;
+
     position: absolute;
     top: 10%;
-    left: 6%;
+    left: 0%;
     color: white;
 }
 
@@ -804,10 +804,11 @@ transition: all 0.3s linear;
 }
 
 .fra-swap{
-  width: 100%;
+  width: 390px;
   height: 640px;
   border: none;
   border-radius: 10px;
+  margin-left: 0.5rem;
 }
 .screendesk{
   position: absolute;
