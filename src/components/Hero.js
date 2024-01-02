@@ -73,7 +73,7 @@ const Hero = () => {
 
 
 <div className='screendesk'>
-  <h1>OGGY FLOK<strong style={{color:'#FFC900'}}>I</strong> Everyone's  <strong style={{color:'#FFC900'}}>Favority</strong> </h1>
+  <h1>OGGY FLOK<strong style={{color:'#FFC900'}}>I</strong> Everyone's  <strong style={{color:'#FFC900'}}>Favorite</strong> </h1>
   <div>
     <button style={{backgroundColor:'#FFC900',color:'white'}} onClick={()=> scrollFunction('howto-container')}>$OGF Tokenomics</button>
     <button onClick={()=> scrollFunction('about-container')}>Passive Income</button>
