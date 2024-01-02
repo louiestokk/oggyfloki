@@ -15,6 +15,8 @@ const Tokenomics = () => {
         <img src={expelee} alt='expelee.com logo'/>
         <img src={elit} alt='crypto elite  logo' style={{height:'160px'}}/>
         <img src={karan} alt='karan tehe wizard'/>
+        <img src='https://altezzasys.com/_next/image?url=%2Fassets%2Fimg%2Fpancake-development%2Fpancake.jpg&w=750&q=75' alt='Pancakeswap'/>
+
       </div>
       <div className='divider'></div>
     </div>

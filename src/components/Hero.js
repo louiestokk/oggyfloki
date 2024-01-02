@@ -15,7 +15,9 @@ import VerifiedUserIcon from '@mui/icons-material/VerifiedUser';
 const Hero = () => {
   const [showNav, setShowNav] = useState(false)
   const notify = () => toast(`pinksale.finance: 25th Dec - 26th Dec! Don't miss this monumental event! `);
-  
+  const scrollFunction =(string)=>{
+    document.querySelector(`.${string}`).scrollIntoView({ behaivor: "smooth" });
+  }
   return (
     <div className='hero-container'>
       <ToastContainer type='resolved'/>
@@ -47,22 +49,37 @@ const Hero = () => {
       </div>
       <img src={heroimg} alt='oggyfloki adventure' className='hero-mainImg'/>
 <div className='hero-content'>
-  <Link to={'https://pancakeswap.finance/swap?outputCurrency=0x03002eb4de8Ff52018da7f65020da66094166bb6'}>
-  <button className='joinbtn'>💰 BUY $OGF TOKENS</button>
-  </Link>
-  <Link to={'/app-oggyfloki'}>
-<button className='playbtn'>PLAY OGGYFLOKI</button>
-</Link>
-  <div style={{display:'flex',alignItems:'center'}}>
+  <div className='fra-swap-cont'>
+<iframe
+              src="https://iframe-pancakeswap.netlify.app"
+             className='fra-swap'
+            
+            ></iframe>
+
+</div>
+  <div style={{display:'flex',alignItems:'center',justifyContent:'center'}}>
 <TelegramIcon className='icons' style={{fontSize:'2.5rem',marginRight:'0.5rem',cursor:'pointer'}} onClick={()=> window.location.href='https://t.me/oggyfloki'}/>
   <TwitterIcon className='icons' style={{fontSize:'2.5rem',marginLeft:'0.5rem',cursor:'pointer'}} onClick={()=> window.location.href='https://twitter.com/OggyFloki'}/>
   <img src={discordicon} alt='discord logo' className='icons' style={{height:'42.5px',marginLeft:'1rem'}} onClick={()=> window.location.href='https://discord.com/invite/t4wJq6HRqv'}/>
   </div>
-
 </div>
 
 
 
+                      ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,  centercontainer
+
+
+
+
+
+<div className='screendesk'>
+  <h1>OGGY FLOK<strong style={{color:'#FFC900'}}>I</strong> Everyone's  <strong style={{color:'#FFC900'}}>Favority</strong> </h1>
+  <div>
+    <button style={{backgroundColor:'#FFC900',color:'white'}} onClick={()=> scrollFunction('howto-container')}>$OGF Tokenomics</button>
+    <button onClick={()=> scrollFunction('about-container')}>Passive Income</button>
+  </div>
+</div>
+            
     </div>
   )
 }
