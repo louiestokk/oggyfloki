@@ -57,7 +57,7 @@ const Hero = () => {
             ></iframe>
 
 </div>
-  <div style={{display:'flex',alignItems:'center',justifyContent:'center'}}>
+  <div style={{display:'flex',alignItems:'center',justifyContent:'center'}} className='hero-ikoner-class'>
 <TelegramIcon className='icons' style={{fontSize:'2.5rem',marginRight:'0.5rem',cursor:'pointer'}} onClick={()=> window.location.href='https://t.me/oggyfloki'}/>
   <TwitterIcon className='icons' style={{fontSize:'2.5rem',marginLeft:'0.5rem',cursor:'pointer'}} onClick={()=> window.location.href='https://twitter.com/OggyFloki'}/>
   <img src={discordicon} alt='discord logo' className='icons' style={{height:'42.5px',marginLeft:'1rem'}} onClick={()=> window.location.href='https://discord.com/invite/t4wJq6HRqv'}/>
@@ -75,8 +75,8 @@ const Hero = () => {
 <div className='screendesk'>
   <h1>OGGY FLOK<strong style={{color:'#FFC900'}}>I</strong> Everyone's  <strong style={{color:'#FFC900'}}>Favorite</strong> </h1>
   <div>
-    <button style={{backgroundColor:'#FFC900',color:'white'}} onClick={()=> scrollFunction('howto-container')}>$OGF Tokenomics</button>
-    <button onClick={()=> scrollFunction('about-container')}>Passive Income</button>
+    <button onClick={()=> scrollFunction('howto-container')} className='tokenmi-btn'>$OGF Tokenomics</button>
+    <button className='buy-btn-hero-louie' onClick={()=> window.location.href='https://pancakeswap.finance/swap?outputCurrency=0x03002eb4de8Ff52018da7f65020da66094166bb6'} >BUY $OGF 💰</button>
   </div>
 </div>
             
@@ -84,4 +84,4 @@ const Hero = () => {
   )
 }
 
-export default Hero
+export default Hero 

@@ -792,9 +792,7 @@ transition: all 0.3s linear;
   .charity-hero h1, .charity-hero h2 {
     font-size: 1.5em;
   }
-  .screendesk{
-    display: none;
-  }
+
 }
 
 
@@ -826,20 +824,37 @@ transition: all 0.3s linear;
 }
 .screendesk button{
 border-radius: 25px;
-background: transparent;
-color: var(--yellow);
-border: 1px solid #FFC900;
-margin: 0 0.5rem;
+margin: 0.25rem 0.5rem;
 width: 11rem;
 cursor: pointer;
 }
 .screendesk button:hover{
-  background-color: var(--yellow);
-  color: white;
+  background-color: transparent;
+  color: var(--yellow);
+  border: 1px solid #FFC900;
 }
+
 @media (max-width: 982px) {
- 
-  .screendesk{
+  .fra-swap-cont{
     display: none;
   }
+  .screendesk{
+    left: 5%;
+    top: 20%;
+  }
+  .hero-ikoner-class{
+    position: absolute;
+    top: 1500%;
+  }
+  .screendesk h1{
+    font-size: 60px;
+  }
+}
+.tokenmi-btn{
+  background-color: #d4ab15;
+  color: white;
+}
+.buy-btn-hero-louie{
+  background-color: green;
+  color: white;
 }
