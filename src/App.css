@@ -828,6 +828,7 @@ border-radius: 25px;
 margin: 0.25rem 0.5rem;
 width: 11rem;
 cursor: pointer;
+font-size: 1.1rem;
 }
 .screendesk button:hover{
   background-color: transparent;

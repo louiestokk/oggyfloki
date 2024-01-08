@@ -11,7 +11,7 @@ import { Link } from 'react-router-dom';
 import { ToastContainer, toast } from 'react-toastify';
 import discordicon from '../utils/discord.png'
 import 'react-toastify/dist/ReactToastify.css';
-import VerifiedUserIcon from '@mui/icons-material/VerifiedUser';
+
 const Hero = () => {
   const [showNav, setShowNav] = useState(false)
   const notify = () => toast(`pinksale.finance: 25th Dec - 26th Dec! Don't miss this monumental event! `);
@@ -75,7 +75,9 @@ const Hero = () => {
 <div className='screendesk'>
   <h1>OGGY FLOK<strong style={{color:'#FFC900'}}>I</strong> Everyone's  <strong style={{color:'#FFC900'}}>Favorite</strong> </h1>
   <div>
-    <button onClick={()=> scrollFunction('howto-container')} className='tokenmi-btn'>$OGF Tokenomics</button>
+    <button onClick={()=> window.location.href='https://www.dexview.com/bsc/0x03002eb4de8Ff52018da7f65020da66094166bb6'} className='tokenmi-btn' >
+    DEXView 📈
+    </button>
     <button className='buy-btn-hero-louie' onClick={()=> window.location.href='https://pancakeswap.finance/swap?outputCurrency=0x03002eb4de8Ff52018da7f65020da66094166bb6'} >BUY $OGF 💰</button>
   </div>
 </div>
